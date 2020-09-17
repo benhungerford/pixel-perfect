@@ -1,0 +1,134 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  /* display: flex; */
+  justify-content: center;
+  background-color: #F5F5F5;
+  width: 100%;
+}
+
+.page {
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #AAAAAA;
+}
+
+a:hover {
+  color: #6DC0EF;
+}
+
+
+
+/* ------------Positioning------------ */
+.main{
+  position: relative;
+  width: 40%;
+}
+
+.secondary {
+  position: relative;
+  width: 40%;
+}
+
+.footer {
+  /* position: absolute; */
+  top: 100%;
+}
+
+/* ------------Icons------------ */
+.social-link img{
+  filter: invert(70%);
+  width: 20px;
+}
+
+.fa-angle-down {
+  color: #AAAAAA;
+}
+
+.fas:hover {
+  color: #6DC0EF;
+}
+
+.fab {
+  color: #AAAAAA;
+}
+
+.fab:hover {
+  color: #6DC0EF;
+}
+
+.fa-facebook-f {
+  width
+}
+
+/* ------------Nav------------ */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  /* justify-content: space-between; */
+  align-items: center;
+  height: 69px;
+  background-color: white;
+  background-size: cover;
+}
+
+.nav-links{
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.nav-link.home{
+  padding-left: 145px;
+}
+
+.nav-link.features {
+  padding-left: 25px;
+  letter-spacing: .5px;
+}
+
+.nav-link.lifestyle {
+  padding-left: 25px;
+  letter-spacing: .35px;
+}
+
+.nav-link.travel {
+  padding-left: 25px;
+  letter-spacing: .65px;
+}
+
+.nav-link.about-me {
+  padding-left: 25px;
+  letter-spacing: .75px;
+}
+
+.nav-link.contact {
+  padding-left: 25px;
+  letter-spacing: 0.6px;
+}
+
+.nav-social {
+  padding-right: 129px;
+}
+
+.search {
+  padding-left: 27.5px;
+}
+
+.nav-social-link {
+  margin: 2.45px;
+}
