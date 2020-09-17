@@ -10,11 +10,13 @@ body {
 }
 
 .page {
-  /* display: flex; */
   justify-content: center;
   flex-direction: row;
 }
-
+ul {
+  margin-block-start: 0em;
+    margin-block-end: 0em;
+}
 li {
   list-style: none;
 }
@@ -31,18 +33,34 @@ a:hover {
 
 
 /* ------------Positioning------------ */
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 131px;
+  margin-right: 131px;
+}
+
 .main{
-  position: relative;
-  width: 40%;
+  background-color: blue;
+  padding-inline-start: 0px;
+  /* margin-right: 20px; */
+  position: sticky;
+  /* width: 70%; */
+
 }
 
 .secondary {
-  position: relative;
-  width: 40%;
+  background-color: yellow;
+  padding-inline-start: 0px;
+  margin: 0;
+  position: sticky;
+  /* width: 30%; */
 }
 
 .footer {
-  /* position: absolute; */
+  margin: 0;
+  position: sticky;
   top: 100%;
 }
 
@@ -66,10 +84,6 @@ a:hover {
 
 .fab:hover {
   color: #6DC0EF;
-}
-
-.fa-facebook-f {
-  width
 }
 
 /* ------------Nav------------ */
@@ -132,3 +146,16 @@ a:hover {
 .nav-social-link {
   margin: 2.45px;
 }
+
+/* ------------Cards------------ */
+.card{
+  /* width: 100%; */
+  /* background-color: white; */
+}
+
+/* .card1 > header {
+  size: 100%;
+  background-image: url(https://www.sbp.de/fileadmin/sbp.de/projects/E7065EC0E3C273A3C1257E750036350F_0_1_2044_1139_a_MAX.jpg
+);
+  background-size: 100%;
+} */
