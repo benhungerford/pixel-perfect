@@ -36,39 +36,32 @@ a:hover {
 .content {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
-  margin-left: 131px;
+  flex-wrap: wrap;
+  margin-top: 52px;
+  margin-left: 91px;
   margin-right: 131px;
 }
 
 .main{
-  background-color: blue;
-  padding-inline-start: 0px;
-  /* margin-right: 20px; */
-  position: sticky;
-  /* width: 70%; */
-
+  display: inline-block;
+  /* background-color: blue; */
+  width: 66.9%;
+  margin-right: 2.7%;
 }
 
 .secondary {
-  background-color: yellow;
+  /* background-color: yellow; */
   padding-inline-start: 0px;
-  margin: 0;
-  position: sticky;
-  /* width: 30%; */
+  width: 30.4%;
 }
 
 .footer {
-  margin: 0;
-  position: sticky;
-  top: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #222222;
 }
 
 /* ------------Icons------------ */
-.social-link img{
-  filter: invert(70%);
-  width: 20px;
-}
 
 .fa-angle-down {
   color: #AAAAAA;
@@ -86,13 +79,15 @@ a:hover {
   color: #6DC0EF;
 }
 
+button:hover {
+  color: #6DC0EF;
+}
+
 /* ------------Nav------------ */
 
 .nav {
   display: flex;
   justify-content: space-between;
-
-  /* justify-content: space-between; */
   align-items: center;
   height: 69px;
   background-color: white;
@@ -148,14 +143,105 @@ a:hover {
 }
 
 /* ------------Cards------------ */
-.card{
-  /* width: 100%; */
-  /* background-color: white; */
+
+.card {
+  background-color: white;
+  margin-bottom: 5.6%;
 }
 
-/* .card1 > header {
-  size: 100%;
-  background-image: url(https://www.sbp.de/fileadmin/sbp.de/projects/E7065EC0E3C273A3C1257E750036350F_0_1_2044_1139_a_MAX.jpg
-);
-  background-size: 100%;
-} */
+.card-body {
+  text-align: center;
+  padding-left: 5.8%;
+  padding-right: 5.8%;
+  padding-top: 4.5%;
+}
+
+.category {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10.5px;
+}
+
+.card-title {
+  margin-top: 2%;
+  text-transform: uppercase;
+  font-size: 153%;
+  font-weight: 400;
+  /* font-size: 24.5px; */
+}
+
+.card-content {
+  text-align: left;
+  margin-top: 4%;
+  line-height: 169%;
+  font-weight: 200;
+}
+
+.continue-reading {
+  margin-top: 1%;
+  padding: 14px 25px;
+  background-color: white;
+  border-style: solid;
+  border-color: #EEEEEE;
+  border-width: 1px;
+  text-transform: uppercase;
+  font-size: 13.4px;
+  font-weight: 200;
+  letter-spacing: .2px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4.5%;
+  margin-left: 5.7%;
+  margin-right: 6.2%;
+  border-top: solid 1px #EEEEEE;
+  padding-top: 2.5%;
+  padding-bottom: 4.3%;
+}
+
+.card-footer-author {
+  font-size: 13px;
+  font-style: italic;
+  color: #3D3D3D;
+}
+
+.author {
+}
+
+.author-name {
+  color: #3D3D3D;
+}
+
+.card-footer-social {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+  color: #C2C2C2;
+}
+
+.card-footer-share {
+  font-size: 15px;
+  border-radius: 50%;
+  border: 1px solid #EEEEEE;
+  padding: 7px;
+  margin-left: 10px;
+}
+
+.card-footer-share.fa-linkedin-in {
+  padding: 7px 8.5px;
+}
+
+.card-footer-share.fa-google-plus-g {
+  padding: 7px 5px;
+}
+
+.card-footer-share.fa-facebook-f {
+  padding: 7px 10px;
+}
+
+.card img {
+  width: 100%;
+}
