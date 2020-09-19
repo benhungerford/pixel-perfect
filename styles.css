@@ -149,6 +149,10 @@ button:hover {
   margin-bottom: 5.6%;
 }
 
+.card img {
+  width: 100%;
+}
+
 .card-body {
   text-align: center;
   padding-left: 5.8%;
@@ -242,6 +246,82 @@ button:hover {
   padding: 7px 10px;
 }
 
-.card img {
+/* ------------Secondary Cards------------ */
+
+.secondary-card {
+  background-color: white;
   width: 100%;
+  margin-bottom: 5.6%;
+}
+.secondary-card img {
+  width: 100%;
+}
+
+.secondary-card1-text {
+  background-color: white;
+  margin-top: 4.5%;
+}
+
+.secondary-card1 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.secondary-card1 {
+  position: relative;
+  text-align: center;
+  padding-bottom: 38%;
+}
+img.brian {
+  width: 83%;
+  margin-left: 8.5%;
+  margin-right: 8.5%;
+  position: relative;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  border-radius: 50%;
+}
+
+.secondary-card-body {
+  top: 104px;
+  position: relative;
+}
+
+.brian-title {
+  letter-spacing: .4px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 117%;
+  margin-bottom: 5.5%;
+}
+
+.brian-content {
+  margin: 0% 9% 6.2% 9%;
+  line-height: 172%;
+}
+
+.secondary-card-footer-share {
+  font-size: 15.5px;
+  border-radius: 50%;
+  border: 1px solid #EEEEEE;
+  padding: 7.5px;
+  margin: .5%;
+}
+
+.secondary-card-footer-share.fa-google-plus-g {
+  padding: 7.5px 6px;
+}
+
+.secondary-card-footer-share.fa-facebook-f {
+  padding: 7.5px 10px;
+}
+
+.secondary-card-footer-share.fa-linkedin-in {
+  padding: 7.5px 8.5px;
+}
+
+.secondary-card-footer-share.fa-instagram {
+  padding: 7.5px 8.5px;
 }
