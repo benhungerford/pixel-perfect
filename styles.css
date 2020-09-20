@@ -486,3 +486,72 @@ color: #AAAAAA;
   font-size: 15px;
   margin: 26px 22px 26px;
 }
+
+
+
+@media (max-width: 600px) {
+  .content {
+    display: inline-block;
+    justify-content: center;
+    padding: 18px;
+    width: 100vw;
+    margin: 0px;
+  }
+  .nav-links {
+    justify-content: space-between;
+    width: 100vw;
+    text-align: center;
+    display: grid;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 14px;
+  }
+
+  .nav-links i {
+    position: absolute;
+    visibility: hidden;
+  }
+  .nav-link.home{
+    padding-left: 0px;
+  }
+  .nav-link.about-me {
+    padding-left: 0px;
+    letter-spacing: .75px;
+  }
+
+  .nav-link.contact {
+    padding-left: 0px;
+    letter-spacing: 0.6px;
+  }
+  .nav-mobile {
+    position: absolute;
+    visibility: hidden;
+  }
+  .nav-social {
+    visibility: hidden;
+  }
+  .main{
+    display: inline-block;
+    /* background-color: blue; */
+    width: 100%;
+    margin-right: 0%;
+    padding-left: 0px;
+  }
+
+  .secondary {
+    /* background-color: yellow; */
+    padding-inline-start: 0px;
+    width: 100%;
+  }
+
+  .secondary-card {
+    margin-bottom: 5.6%;
+  }
+
+  .secondary-card1 {
+    padding-bottom: 30%;
+}
+
+}
