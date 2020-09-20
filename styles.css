@@ -78,18 +78,22 @@ a:hover {
 /* ------------Hover Styling------------ */
 .fab:hover {
   color: #6DC0EF;
+  cursor: pointer;
 }
 
 button:hover {
   color: #6DC0EF;
+  cursor: pointer;
 }
 
 a:hover {
   color: #6DC0EF;
+  cursor: pointer;
 }
 
 h3:hover {
   color: #6DC0EF;
+  cursor: pointer;
 }
 
 .secondary-card {
@@ -108,6 +112,7 @@ transition: all .2s ease;
 
 .secondary-card .hover:hover {
 -webkit-filter: grayscale(100%);
+cursor: pointer;
 }
 
 
