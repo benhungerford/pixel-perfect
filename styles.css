@@ -75,6 +75,7 @@ a:hover {
   color: #AAAAAA;
 }
 
+/* ------------Hover Styling------------ */
 .fab:hover {
   color: #6DC0EF;
 }
@@ -82,6 +83,33 @@ a:hover {
 button:hover {
   color: #6DC0EF;
 }
+
+a:hover {
+  color: #6DC0EF;
+}
+
+h3:hover {
+  color: #6DC0EF;
+}
+
+.secondary-card {
+  position: relative;
+  width: 50%;
+}
+
+.secondary-card .hover {
+-webkit-filter: grayscale(0%);
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-o-transition: all .2s ease;
+-ms-transition: all .2s ease;
+transition: all .2s ease;
+}
+
+.secondary-card .hover:hover {
+-webkit-filter: grayscale(100%);
+}
+
 
 /* ------------Nav------------ */
 
